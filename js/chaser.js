@@ -29,7 +29,7 @@ document.getElementById("search-btn").addEventListener("click", () => {
 
 // search Data using api
 let searchData = async (value) => {
-    url = https://openapi.programming-hero.com/api/phones?search=${value};
+    url = `https://openapi.programming-hero.com/api/phones?search=${value}`;
     let res = await fetch(url);
     let data = await res.json();
     if (data.status) {
@@ -109,7 +109,7 @@ let hideNotFound = () => {
 };
 // show details
 let showDetails = async (slug) => {
-    url = https://openapi.programming-hero.com/api/phone/${slug};
+    url = `https://openapi.programming-hero.com/api/phone/${slug}`;
     let res = await fetch(url);
     let data = await res.json();
     let detailsDiv = document.getElementById("details");
