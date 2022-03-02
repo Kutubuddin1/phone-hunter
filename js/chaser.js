@@ -85,7 +85,7 @@ let addCard = (data) => {
   <img src="${data2.image}" alt="" />
           <div><strong>Phone name : </strong><span>${data2.phone_name}</span></div>
           <div><strong>Brand name : </strong><span>${data2.brand}</span></div>
-          <div><button id="explore" onclick="showDetails('${data2.slug}')">Explore</button></div>
+          <div><button id="explore" onclick="showDetails('${data2.slug}')">Explore Now</button></div>
   `;
         displayDiv.appendChild(card);
     });
