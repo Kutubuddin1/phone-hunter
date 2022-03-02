@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Chaser</title>
+
+</head>
+
+<body>
+    <!-- search box start-->
+    <div class="container">
+        <h1>Phone Chaser</h1>
+        <div id="search">
+            <input id="input-fileld" type="text" placeholder="Search your favorite phone" />
+            <button id="search-btn">
+                <i class="fa fa-magnifying-glass"></i> Search
+            </button>
+        </div>
+    </div>
+    <!-- search box end  -->
+
+    <!-- preloader start  -->
+    <div id="loader"></div>
+    <!-- preloader End -->
+    <!-- details box start  -->
+    <div class="container">
+        <div id="details"></div>
+    </div>
+    <!-- details box end  -->
+    <!-- not found box start  -->
+    <div class="container">
+        <div id="not-found">
+            <div>
+                <p id="not-found-text"></p>
+            </div>
+            <div>
+                <button onclick="hideNotFound()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- not found box end  -->
+    <!-- search result start  -->
+    <div class="container">
+        <div id="results"></div>
+        <button id="show-more">Show Us More</button>
+    </div>
+    <!-- search result end  -->
+
+    <!-- font awesome link  -->
+
+
+</body>
+
+</html>
