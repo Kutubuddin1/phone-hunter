@@ -1,4 +1,3 @@
-Farhan Ishraq
 // hide show loading animation
 let loader = (value) => {
     let loader = document.getElementById("loader");
